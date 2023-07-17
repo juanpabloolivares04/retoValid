@@ -21,7 +21,7 @@ import static org.example.userinterfaces.resultSearch.TITLE1;
 public class searchStepDefinition {
     @Managed(driver = "chrome")
     private WebDriver navegador;
-    private Actor actor = Actor.named("Andrea");
+    private Actor actor = Actor.named("Juan");
     private homePage HomePage = new homePage();
 
     @Dado("^que el usuario  requiere buscar una palabra a la pagina Wikipedia$")

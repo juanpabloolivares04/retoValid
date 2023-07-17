@@ -19,7 +19,7 @@ import static org.example.userinterfaces.resultSearch.TITLE1;
 public class homeStepDefinition {
     @Managed(driver = "chrome")
     private WebDriver navegador;
-    private Actor actor = Actor.named("Andrea");
+    private Actor actor = Actor.named("Juan");
     private homePage HomePage = new homePage();
 
     @Dado("^que el usuario desea ingresar a la pagina Wikipedia$")
