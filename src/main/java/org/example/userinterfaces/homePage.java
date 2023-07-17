@@ -13,4 +13,5 @@ public class homePage extends PageObject {
 
     public static final Target MOBILEBUTTON = Target.the("BTN_PAGINA MOVIL").locatedBy("//li[@id='footer-places-mobileview']");
     public static final Target DESKTOPBUTTON = Target.the("BTN_PAGINA ESCRITORIO").locatedBy("//a[@id='mw-mf-display-toggle']");
+    public static final Target HISTORYBUTTON = Target.the("BTN_HISTORIAL").locatedBy("//li[@id='ca-history']");
 }
